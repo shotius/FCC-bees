@@ -1,0 +1,222 @@
+/* global element sty
+
+
+ng */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  
+}
+ul {
+   display: flex;
+  margin-top: 20px;
+  float: right;
+}
+li {
+  list-style: none;
+  margin-right: 4px;
+  font-size: 1.2em;
+  margin-right: 8px;    
+ }
+
+a {
+  text-decoration: none;
+}
+
+/* global classes */
+
+.container {
+  max-width: 10000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  margin: 0px;
+  width: 0.2em;
+ 
+}
+#hero {
+ margin-top: -30px; 
+}
+#email {
+  font-size: 1em;
+  padding: 3px;
+  margin-top: 10px; 
+  width: 300px; 
+  margin: 0 auto ;
+}
+.btn {
+  width: 200px ;
+  margin: 10px auto ;
+  height: 2em;
+  background-color: gray;
+}
+
+.info {
+  height: 200px; 
+  margin-top: 10px ;
+  margin-top: 10px ;
+  display: grid;
+  grid-template-columns: 95px auto ;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  min-height: 40px;
+  height: 90px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  background-color: yellow;
+  radius-bottom: 5px solid black;
+}
+#header-img {
+    height: 90px;
+    margin-left: -20px;
+  }
+.logo {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+
+  label[for="header"] {
+    font-size: 2em;
+  }
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 50%;
+  margin: 0 auto;
+}
+label[for="email"]{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-weight:700;
+}
+.info {
+    height: 150px; 
+    margin-top: 10px ;
+    margin-top: 10px ;
+    display: grid;
+    grid-template-columns: 95px auto ;
+  }
+
+.fa-forumbee, 
+.fa-shipping-fast{
+    font-size: 4em;
+    position: relative;
+    margin: 0 10px;
+    color: #FC7523;
+}
+#i-video {
+    display: block;
+    margin: 0 auto;
+  }
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin-top: 5px; 
+  
+}
+
+  .nav-link {
+    color: white;
+  }
+#copyright {
+  padding-top: 50px;
+}
+/* for mobile devices */
+
+@media (max-width: 600px ) {
+ /* adjust header */
+  #header {
+    height: 55px;
+    border-bottom: 3px solid black;
+  }
+  label[for="header"] {
+    font-size: 2em;
+  }
+  #header-img {;
+    height: 56px;
+  }
+  .logo {
+    align-items: center;
+  }
+ 
+
+  /* adjust offer section */
+  #form {
+    margin: 30px auto; 
+    height: 150px;
+    width: 95%;
+  }
+  label[for="email"]{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    font-weight:700;
+  }
+  #email {
+    height: 2.3em;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.8em;
+    width: 100%;
+  }
+  .btn {
+  background-color: none;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 3px;
+    
+}
+  /* info section adjustment so the container as well */
+  .info {
+    display: block;
+    margin: 10px; 
+    height: 200px;
+  }
+  .fa-forumbee, 
+  .fa-shipping-fast{
+     position: absolute;
+     left: -1000px;
+  }
+  #i-video {
+    width: 95% !important;
+  }
+  footer {
+    height: 70px; 
+    background-color: black;
+    color: white;
+    margin-top: 10px; 
+  }
+  #copyright {
+    padding-top: 40px ;
+    
+    
+  }
+  
+}
+
+@media (max-width: )
+
+
+
+
